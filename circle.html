@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <style media="screen">
+  /*任务部分*/
+  div.total{
+    width: 200px;
+    height: 200px;
+  }
+  div.semi-circle{ /*右上,左下*/
+    height:100px;
+    width:100px;
+    background:#9da;
+    border-radius:50px 0;
+    float: left;
+    }
+  div.sem-circle{/*右下,左上*/
+    height:100px;
+    width:100px;
+    background:#9da;
+    border-radius:0 50px;
+    float: left;
+  }
+  </style>
+</head>
+<body>
+  <div class="total">
+    <div class="r1">
+      <div class="sem-circle"></div>
+      <div class="semi-circle"></div>
+    </div>
+
+    <div class="r2">
+      <div class="semi-circle"></div>
+      <div class="sem-circle"></div>
+    </div>
+  </div>
+</body>
+</html>
