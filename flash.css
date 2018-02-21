@@ -1,0 +1,18 @@
+div{
+  width:300px;
+  height: 200px;
+  background-color: orange;
+  margin: 20px auto;/*数字代表元素顶部与浏览器边缘德距离*/
+
+  -webkit-transition-property:-webkit-border-radius;
+  transition-property: border-radius;
+  -webkit-transition-duration: .5s;
+  transition-duration: .5s;
+  -webkit-transition-timing-function:east-out;
+  transition-timing-function: ease-out;
+  -webkit-transition-delay: .2s;
+  transition-delay: .2s;
+}
+div:hover{
+  border-radius: 50px;
+}
